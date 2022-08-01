@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    background: url(images/istockphoto-1285957020-170667a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    /* font-family: sans-serif; */
+}
+
+#main{
+    /* border: 2px solid #fff; */
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#header{
+    background-color: rgb(1, 1, 12);
+    box-shadow:  5px 5px 5px rgb(1, 1, 12);;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 5px;
+    width: 350px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+#content{
+    background-color: rgb(233, 223, 223);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    box-shadow:  5px 5px 5px rgb(85, 83, 83);
+    color: black;
+}
+
+#qoutes{
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+#person{
+    display: block;
+    text-transform: uppercase;
+    color: red;
+    margin: 15px auto;
+}
+
+#btn-newQoutes{
+    border: none;
+    background-color: rgb(1, 1, 12);
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#btn-newQoutes:active{
+    background-color: skyblue;
+}
+
+
+
+@media(max-width:500px){
+    #header{
+        width: 85%;
+        font-size: 1.2rem;
+    }
+
+    #main{
+        width: 90%;
+    }
+    
+}
