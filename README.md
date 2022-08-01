@@ -1,1 +1,1 @@
-# Js-Qoute-Generator
+# Js-Quote-Generator
